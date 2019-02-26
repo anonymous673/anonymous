@@ -14,7 +14,7 @@ We observed four RI from layer 10, 22, 40 and 49 each epoch. (a) RI from layer49
 
 
 ### Other visualization results for interpretation consistency (related to Section 3)
-1-D Plot for the DoI(49) distributions of negative and positive samples. (a) Training data. (b) Test data. We can observe how two distributions are separated and formed according to training progress. 
+1-D Plot for the DoI distributions of negative and positive samples. (a) Training data. (b) Test data. We can observe how two distributions are separated and formed according to training progress. 
 
 ![GitHub Logo](/figure7.png)
 
