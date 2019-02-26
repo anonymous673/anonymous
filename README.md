@@ -13,6 +13,13 @@ We observed four RI from layer 10, 22, 40 and 49 each epoch. (a) RI from layer49
 ![GitHub Logo](/figure2.png)
 
 
+### Other visualization results for interpretation consistency
+
+![GitHub Logo](/figure7.png)
+
+![GitHub Logo](/figure8.png)
+
+
 ### Grad-CAMs of the defective samples from the proposed model
 We can see that Grad-CAM activates on the defective region. Grad-CAMs are activated in a narrow region from a wide region as it proceeds from layer49 to layer10 (Fine to coarse).
 
