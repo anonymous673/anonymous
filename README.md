@@ -36,3 +36,9 @@ Confusion matrices for test dataset at 25% supervision. (a) Baseline, (b) Propos
 
 ![GitHub Logo](/figure5.png)
 ![GitHub Logo](/figure6.png)
+
+
+### Ablation study about L
+
+![GitHub Logo](/figure9.png)
+![GitHub Logo](/figure10.png)
