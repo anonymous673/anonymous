@@ -8,7 +8,7 @@ Sample images of SAI dataset. Red rectangles indicate the location of the defect
 
 ### Consturcting reference interpretation (RI) during the training process (related to Section 3)
 We extracted Grad-CAMs from ResNet-50 trained by SAI dataset, and RI was constructed by averaging Grad-CAMs of negative samples.
-We observed four RI from layer 10, 22, 40 and 49 each epoch. (a) RI from layer49, (b) RI from layer40, (c) RI from layer22, (d) RI from layer10.
+We observed four RI from layer 10, 22, 40 and 49 each epoch. (a) RI from layer49, (b) RI from layer40, (c) RI from layer22, (d) RI from layer10. RI started to stabilize after 10 epochs.
 
 ![GitHub Logo](/figure2.png)
 
@@ -21,12 +21,6 @@ We observed four RI from layer 10, 22, 40 and 49 each epoch. (a) RI from layer49
 Grad-CAM visualizations for Spk Hole class. M(i) indicates Grad-CAM from i-th layer. (a) Negative. (b)  Positive. 
 
 ![GitHub Logo](/figure8.png)
-
-
-### Grad-CAMs of the defective samples from the proposed model (related to Section 3)
-We can see that Grad-CAM activates on the defective region. Grad-CAMs are activated in a narrow region from a wide region as it proceeds from layer49 to layer10 (Fine to coarse).
-
-![GitHub Logo](/figure3.png)
 
 
 ### Comparison of confusion matrix between baseline and the proposed method (related to Section 5)
