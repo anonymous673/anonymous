@@ -23,3 +23,9 @@ We can see that Grad-CAM activates on the defective region. Grad-CAMs are activa
 Confusion matrices for test dataset at 25% supervision. (a) Baseline, (b) Proposed method. 0 and 1 indicate negative and positive, respectively. Most critical error in industrial visual inspection task is false negative which means the failure of detecting defects because the primary objective of an inspection is to detect defective product to avoid delivering it to the customer. From these confusion matrices, we have overall 46 FNs over 408 samples (11.3%) with baseline, 31 FNs (7.6%) with the proposed method.
 
 ![GitHub Logo](/figure4.png)
+
+
+### Comparison with VAT
+
+![GitHub Logo](/figure5.png)
+![GitHub Logo](/figure6.png)
